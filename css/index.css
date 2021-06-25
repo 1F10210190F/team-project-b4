@@ -1,14 +1,48 @@
-img{
+header{
+    z-index: 10;
+    height: 64px;
+    position: absolute;
+    top: 0px;
+    background-color: #947B89;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px ;
+}
+
+ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    z-index: 20;
+    
+}
+
+ul li {
+    display: inline-block;
+    padding: 2% 10% 0% 0%;
+    
+}
+
+a {
+    color: #AEB8C3;
+}
+
+
+
+
+p img{
     width: 20%;
     text-align: center;
     padding: 10px;
 }
 
 body{
-    background-color: rgb(172, 216, 172);
+    background-color: #E1E7EB;
 }
 
 h1{
     text-align: center;
     padding: 20px;
+    color: #4E0E2E;
 }
