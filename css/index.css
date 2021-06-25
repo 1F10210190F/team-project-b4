@@ -1,14 +1,30 @@
 header{
-    z-index: 10;
-    height: 64px;
+    height: 50px;
+    position: fixed !important;
     position: absolute;
-    top: 0px;
+    top: 0;
+    left: 0;
     background-color: #947B89;
     width: 100%;
     text-align: center;
     z-index: 2;
     box-shadow: 0px 0px 10px 0px ;
 }
+
+footer{
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #947B89;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 0px 8px 0px;
+
+
+}
+
+
 
 ul {
     overflow: hidden;
@@ -21,7 +37,7 @@ ul {
 ul li {
     display: inline-block;
     padding: 2% 10% 0% 0%;
-    
+    color: #AEB8C3;
 }
 
 a {
@@ -32,9 +48,9 @@ a {
 
 
 p img{
-    width: 20%;
+    width: 15%;
     text-align: center;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
 }
 
 body{
@@ -43,6 +59,6 @@ body{
 
 h1{
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     color: #4E0E2E;
 }
