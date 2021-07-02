@@ -1,49 +1,3 @@
-header{
-    height: 50px;
-    position: fixed !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #947B89;
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-    box-shadow: 0px 0px 10px 0px ;
-}
-
-footer{
-    height: 80px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    background-color: #947B89;
-    text-align: center;
-    width: 100%;
-}
-
-
-
-ul {
-    overflow: hidden;
-    list-style: none;
-    margin: 0;
-    z-index: 20;
-    
-}
-
-ul li {
-    display: inline-block;
-    padding: 2% 10% 0% 0%;
-    color: #AEB8C3;
-}
-
-a {
-    color: #AEB8C3;
-}
-
-
-
-
 p img{
     width: 15%;
     text-align: center;
@@ -58,4 +12,59 @@ h1{
     text-align: center;
     padding: 20px 0px 0px 0px;
     color: #4E0E2E;
+}
+
+.home header{
+    height: 50px;
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #947B89;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px ;    
+}
+
+.home ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    z-index: 20;
+}
+
+.home li{
+    display: inline-block;
+    padding: 2% 10% 0% 0%;
+    color: #AEB8C3;
+}
+
+.home a{
+    color: #AEB8C3;
+}
+
+
+
+.end footer{
+    height: 80px;
+    position: relative ;
+    bottom: 0 ;
+    left: 0;
+    background-color: #947B89;
+    text-align: center;
+    width: 100%;
+}
+
+.end ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    z-index: 20;
+}
+
+.end li{
+    display: inline-block;
+    padding: 2% 10% 0% 0%;
+    color: #AEB8C3; 
 }
